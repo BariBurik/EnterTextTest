@@ -1,0 +1,1 @@
+export {LazyResult as Result} from './Result.lazy'

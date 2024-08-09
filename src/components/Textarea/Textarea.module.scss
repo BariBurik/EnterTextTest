@@ -1,0 +1,49 @@
+
+.textarea_container {
+    position: relative;
+    margin: 300px 20px;
+    height: 220px;
+    min-width: 320px;
+    max-width: 1800px;
+  }
+  
+  .textarea {
+    font-family: serif;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    font-size: 55px;
+    line-height: 55px;
+    box-sizing: border-box;
+    resize: none;
+    color: transparent;
+    position: absolute;
+    border: none;
+    overflow: hidden;
+
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  .overlay {
+    overflow-y: hidden;
+    font-family: serif;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    padding: 20px;
+    font-size: 55px;
+    white-space: pre-wrap;
+    pointer-events: none;
+  }
+
+  .timer {
+    position: absolute;
+    top: 26%;
+    left: 7.2%;
+    color: #fffb00;
+    font-size: 30px;
+  }
