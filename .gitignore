@@ -1,2 +1,9 @@
 node_modules
-build
+./config
+./public
+./src
+package-lock.json
+package.json
+README.md
+tsconfig.json
+webpack.config.js
