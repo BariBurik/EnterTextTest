@@ -53,7 +53,7 @@ const Textarea: FC<TextareaProps> = ({changeTime, timer}) => {
     // Прокручиваем вниз текст, если пользователь дошёл до конца, видимого им текста, а также обновляем состояни в rtk
     useEffect(() => {
         // Прокрутка
-        if (overlayRef.current && areaRef.current) {
+        if (overlayRef.current) {
             overlayRef.current.scrollTop = areaRef.current.scrollTop
         }
         // Обновляем колличество символов в минуту и процент правильных букв, среди всех введённых пользователем
